@@ -1,0 +1,45 @@
+body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40em;
+    width: 88%;
+    background: #ecf0f1; 
+    color: #333; 
+    font-family: Lato, sans-serif; 
+  }
+
+h1 {
+    text-align: center;
+}
+
+#control-wrapper {
+    text-align: center; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space;
+    margin: 5%;
+    padding: 1%;
+}
+
+  label,
+  input,
+  textarea {
+    width: 100%;
+  }
+
+  label {
+    font-weight: bold;
+  }
+
+  input,
+  textarea {
+    margin-bottom: 2em;
+  }
+
+  textarea {
+    height: 12em;
+  }
+
+  #progressBar {
+    width: 100%;
+  }

@@ -9,30 +9,44 @@
 </head>
 
 <body>
-    <h1>Michelle</h1>
-
-    <div id="progress">
-        <progress value="0" max="100" id="progressBar">0%</progress>
-    </div>
-
     <form id="autosave">
         <div id="control-wrapper">
-            <label>Sweep</label>
-            <input type="checkbox" id="task 1" />
+            <div id="row">
+                <div id="column">
+                    <div id="column-1">
+                        <h1>Daily's</h1>
+                        <label for="people">Who's Doing This?</label>
+                        <select id="people" name="people">
+                          <option value="michelle">Person 1</option>
+                          <option value="alex">Person 2</option>
+                          <option value="ronni">Person 3</option>
+                          <option value="kyle">Person 4</option>
+                        </select>
+                        <div id="progress">
+                            <progress value="0" max="100" id="progressBar">0%</progress>
+                        </div>
+                        <label>Surfaces</label>
+                        <input type="checkbox" id="task 1" />
 
-            <label>Mop</label>
-            <input type="checkbox" id="task 2" />
+                        <label>Dust</label>
+                        <input type="checkbox" id="task 2" />
 
-            <label>Dust</label>
-            <input type="checkbox" id="task 3" />
+                        <label>Sweep</label>
+                        <input type="checkbox" id="task 3" />
 
-            <label>Dishes</label>
-            <input type="checkbox" id="task 4" />
+                        <label>Vacuum</label>
+                        <input type="checkbox" id="task 4" />
 
-            <label>Laundry</label>
-            <input type="checkbox" id="task 5" />
+                        <label>Mop</label>
+                        <input type="checkbox" id="task 5" />
 
-            <button id="clear-button" class="pretty-button">Clear</button>
+                        <label>Dishes</label>
+                        <input type="checkbox" id="task 6" />
+
+                        <button id="clear-button" class="pretty-button">Clear</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </form>
     <script type="text/javascript" src="TryItOut.js"></script>

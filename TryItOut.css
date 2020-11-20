@@ -3,7 +3,7 @@ body {
     margin-right: auto;
     max-width: 40em;
     width: 88%;
-    background: #ecf0f1; 
+    background:olive; 
     color: #333; 
     font-family: Lato, sans-serif; 
   }
@@ -11,6 +11,22 @@ body {
 h1 {
     text-align: center;
 }
+
+button { 
+    background: none; 
+    border: 0px; 
+    color: #333; 
+    font-size: 15px; 
+    width: 100px; 
+    margin: 10px 0 0; 
+    font-family: Lato, sans-serif; 
+    cursor: pointer; 
+  } 
+    
+  button:hover { 
+    color: #333; 
+  } 
+
 
 #control-wrapper {
     text-align: center; 

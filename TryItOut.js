@@ -19,17 +19,6 @@ for (let i = 0; i < inputs.length; i++) {
     });
 }
 
-for (let i = 0; i < textArea.length; i++) {
-    const content = { id: textArea.item(i).id, completed: false };
-    element.push(content);
-
-    const entry = document.getElementById(textArea.item(i).id);
-
-    entry.addEventListener('change', function () {
-        callMe(entry, textArea.item(i).id);
-    });
-}
-
 function callMe(entry, id) {
     const index = element.findIndex(function (record) {
         return record.id === id;
